@@ -70,11 +70,6 @@ $(document).ready(function() {
 
 
         //show active/inactive button or not, default is true.
-
-        activeButton: true,
-
-
-
         //text on active button.
 
         activeButtonText: "Active/Inactive",
