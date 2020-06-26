@@ -2,7 +2,10 @@
     "githubPullRequests.remotes": [
         "origin",
         "upstream",
-        "todolist"
+        "todolist",
+        "master"
     ],
-    "github-actions.workflows.pinned.refresh.enabled": true
+    "github-actions.workflows.pinned.refresh.enabled": true,
+    "git.autofetch": true,
+    "git.fetchOnPull": true
 }
