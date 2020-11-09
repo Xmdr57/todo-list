@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/todolist.css" rel="stylesheet">
 
 </head>
 
@@ -22,10 +23,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/todolist.js" type="text/javascript"></script>
-
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
-    <h1>TODO LIST</h1>
+    <h1><span class="border border-primary">TODO LIST </span></h1>
     <input type="text" name="writetodo" id="writetodo" />
+    <!-- input where we write whatever we want to add on our todo list. IT MUST NOT BE A NUMBER OR NULL OR BLANK-->
+
     <input type="button" value="add" id="add" class=" btn btn-primary ">
     <h2>Cosas para hacer</h2>
     <ul id="donethings" class="todo-list">

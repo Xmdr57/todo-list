@@ -7,5 +7,29 @@
     ],
     "github-actions.workflows.pinned.refresh.enabled": true,
     "git.autofetch": true,
-    "git.fetchOnPull": true
+    "git.fetchOnPull": true,
+    "cSpell.ignoreWords": [
+        "alert",
+        "at",
+        "char",
+        "console",
+        "elementos",
+        "empiezen",
+        "en",
+        "haber",
+        "if",
+        "if writetodo val char at test regex console log alert en la lista no pueden haber elementos que empiezen por numero",
+        "la",
+        "lista",
+        "log",
+        "no",
+        "numero",
+        "por",
+        "pueden",
+        "que",
+        "regex",
+        "test",
+        "val",
+        "writetodo"
+    ]
 }
